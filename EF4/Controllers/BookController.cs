@@ -1,5 +1,6 @@
 ﻿using EF4.Model;
 using EF4.Repository;
+using EF4.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,10 +11,10 @@ namespace EF4.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly BookDB _book;
-        public BookController(BookDB book)
+        private readonly BookService _bookService;
+        public BookController(BookService book)
         {
-            _book = book;
+            _bookService = book;
         }
 
         [HttpGet]
@@ -21,7 +22,7 @@ namespace EF4.Controllers
         {
             try
             {
-                var bookData = await _book.BookTable.ToListAsync();
+                var bookData = await _bookService.GetBooksAsync();
                 return Ok(bookData);
             }
             catch (Exception ex)
@@ -35,10 +36,8 @@ namespace EF4.Controllers
         {
             try 
             {
-                    _book.BookTable.Add(entity);
-                await _book.SaveChangesAsync();
-
-                return Ok("Book Added Successfully");
+                 var result  = await _bookService.AddBook(entity);
+                return Ok(result);
             }
             catch (Exception ex)
             {
@@ -51,41 +50,22 @@ namespace EF4.Controllers
         {
             try
             {
-                var entity = await _book.BookTable.FindAsync(Id);
-                if (entity == null)
-                {
-                    return NotFound("Book not found");
-                }
-
-                _book.BookTable.Remove(entity);
-                await _book.SaveChangesAsync();
-
-                return Ok("Book Deleted Successfully");
+                var result = await _bookService.DeleteBook(Id);
+                return Ok(result);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
         }
-
+        
         [HttpPut]
         public async Task<IActionResult> UpdateBooks(int Id, [FromBody] Books entity)
         {
             try
             {
-                var existingBook = await _book.BookTable.FindAsync(Id);
-                if (existingBook == null)
-                {
-                    return NotFound("Book not found");
-                }
-                existingBook.Name = entity.Name;
-                existingBook.Price = entity.Price;
-                existingBook.Publisher = entity.Publisher;
-                existingBook.AuthorId = entity.AuthorId;
-
-                _book.BookTable.Update(existingBook);
-                await _book.SaveChangesAsync();
-                return Ok("Book Updated Successfully");
+                var result = await _bookService.UpdateBook(Id, entity);
+                return Ok(result);
             }
             catch (Exception ex)
             {

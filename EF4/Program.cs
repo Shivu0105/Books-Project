@@ -1,5 +1,6 @@
 
 using EF4.Repository;
+using EF4.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace EF4
@@ -21,6 +22,8 @@ namespace EF4
 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+
+            builder.Services.AddScoped<BookService>();
 
             var app = builder.Build();
 

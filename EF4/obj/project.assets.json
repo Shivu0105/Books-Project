@@ -3227,11 +3227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\EF4.csproj",
+      "projectUniqueName": "C:\\Users\\shiva\\source\\repos\\Books\\EF4\\EF4.csproj",
       "projectName": "EF4",
-      "projectPath": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\EF4.csproj",
+      "projectPath": "C:\\Users\\shiva\\source\\repos\\Books\\EF4\\EF4.csproj",
       "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\obj\\",
+      "outputPath": "C:\\Users\\shiva\\source\\repos\\Books\\EF4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
