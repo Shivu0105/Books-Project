@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shiva\\source\\repos\\Family\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|c:\\users\\shiva\\source\\repos\\family\\ef4\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|solutionrelative:ef4\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|c:\\users\\shiva\\source\\repos\\family\\ef4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|solutionrelative:ef4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|c:\\users\\shiva\\source\\repos\\family\\ef4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|solutionrelative:ef4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|c:\\users\\shiva\\source\\repos\\family\\ef4\\repository\\bookdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|solutionrelative:ef4\\repository\\bookdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|c:\\users\\shiva\\source\\repos\\family\\ef4\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E34243-2421-534D-1B3B-C39705C29982}|EF4\\EF4.csproj|solutionrelative:ef4\\model\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "EF4\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Controllers\\BookController.cs",
+              "RelativeToolTip": "EF4\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T12:36:50.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Program.cs",
+              "RelativeDocumentMoniker": "EF4\\Program.cs",
+              "ToolTip": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Program.cs",
+              "RelativeToolTip": "EF4\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T11:34:58.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\appsettings.json",
+              "RelativeDocumentMoniker": "EF4\\appsettings.json",
+              "ToolTip": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\appsettings.json",
+              "RelativeToolTip": "EF4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-18T11:07:59.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookDB.cs",
+              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Repository\\BookDB.cs",
+              "RelativeDocumentMoniker": "EF4\\Repository\\BookDB.cs",
+              "ToolTip": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Repository\\BookDB.cs",
+              "RelativeToolTip": "EF4\\Repository\\BookDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:54:42.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Model\\Books.cs",
+              "RelativeDocumentMoniker": "EF4\\Model\\Books.cs",
+              "ToolTip": "C:\\Users\\shiva\\source\\repos\\Family\\EF4\\Model\\Books.cs",
+              "RelativeToolTip": "EF4\\Model\\Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:48:46.085Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
